@@ -1,5 +1,5 @@
 
-BRANCH_NAME="test-$(date +%d/%m/%Y)"
+BRANCH_NAME="test-$(date +%d/%m/%Y-%N)"
 
 git checkout -b $BRANCH_NAME
 
