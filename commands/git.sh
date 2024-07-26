@@ -1,10 +1,10 @@
 
-BRANCH_NAME = "test-$(date +%Y%m%d%H%M%S)"
+BRANCH_NAME="test-$(date +%d/%m/%Y/%H:%M:%S)"
 
 git checkout -b $BRANCH_NAME
 
 git add .
-git commit -m "test run on $(date +%Y%m%d%H%M%S)"
+git commit -m "test run on $(date +%d/%m/%Y/%H:%M:%S)"
 
 git push origin $BRANCH_NAME
 
