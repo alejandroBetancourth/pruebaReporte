@@ -1,6 +1,8 @@
+echo "                          "
 echo "--------------------------"
 echo "Control de versiones" 
 echo "--------------------------"
+echo "                          "
 
 BRANCH_NAME="test-$(date +%d/%m/%Y-%N)"
 
